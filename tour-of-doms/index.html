@@ -70,7 +70,7 @@
             // console.log(h1.innerText);
         }
 
-        // option-2: getElementById
+        // option-2: getElementById -- > usses most
         const fruitsTitle = document.getElementById('fruits-title');
         fruitsTitle.innerText = 'Fruits changed by JS';
 
@@ -80,9 +80,11 @@
             // console.log(place.innerText)
         }
 
-        // option-4: querySelector
+        // option-4: querySelector --> will return first one
         
         // option-5: querySelectorAll
+        // document.querySelectorAll('.fruits-container li')
+        // htmlcollection vs nodelist
         const someLi = document.querySelectorAll('.fruits-container li');
         // console.log(someLi);
         for(const li of someLi){
